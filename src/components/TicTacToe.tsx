@@ -5,6 +5,7 @@ import Board from "./Board";
 import ScoreBoard from "./ScoreBoard";
 import GameStatus from "./GameStatus";
 import GameControls from "./GameControls";
+import Advertisement from "./Advertisement";
 
 const TicTacToe: React.FC = () => {
   return (
@@ -14,6 +15,7 @@ const TicTacToe: React.FC = () => {
         <ScoreBoard />
         <GameStatus />
         <Board />
+        <Advertisement />
         <GameControls />
       </div>
     </GameProvider>

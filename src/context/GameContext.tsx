@@ -2,7 +2,7 @@ import { createContext, useContext, useState, ReactNode } from "react";
 import { toast } from "sonner";
 
 // Define player types
-export type Player = "X" | "O" | null;
+export type Player = "X" | "O" | "draw" | null;
 export type Board = (Player)[];
 export type WinningLine = number[] | null;
 
